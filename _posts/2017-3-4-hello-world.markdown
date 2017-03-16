@@ -3,7 +3,7 @@ layout:     post
 title:      "About This Site"
 subtitle:   " \"Hello World, Hello Blog\""
 date:       2017-03-04 16:00:00
-author:     "zi Ning"
+author:     "Zi Ning"
 header-img: "img/post-bg-2017.jpg"
 tags:
     - 生活
@@ -25,7 +25,7 @@ tags:
 
 通过搭建博客的过程，感受到自己需要学习的东西实在是太多了，不过这也是令人兴奋的，哈哈！
 
-以后这个博客会记录自己对于前端方面学习的文章，希望大家指正，一起学习。可能还有心情随笔，也会推荐一些最近喜欢的书籍等。
+以后这个博客会记录自己对于前端方面学习的文章，希望大家指正，一起学习。可能还有心情随笔，也会分享一些最近喜欢的书籍等。
 
 ## Postscript
 
