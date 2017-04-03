@@ -1,3 +1,8 @@
+/*!
+ * Hux Blog v1.0.0 (http://huxpro.github.io)
+ * Copyright 2017 Hux
+ */
+
 @media (min-width: 1200px) {
   .post-container,
   .sidebar-container {
@@ -26,14 +31,17 @@
 }
 .sidebar-container a:hover,
 .sidebar-container a:active {
-  color: #22C3AA !important;
+  color: #22c3aa !important;
+}
+.sidebar-container a:hover .fa-circle:before {
+  content: "\f0c8";
 }
 .sidebar-container .tags a {
   border-color: #bfbfbf;
 }
 .sidebar-container .tags a:hover,
 .sidebar-container .tags a:active {
-  border-color: #22C3AA;
+  border-color: #22c3aa;
 }
 .sidebar-container .short-about img {
   width: 80%;
@@ -85,7 +93,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #22C3AA;
+  color: #22c3aa;
 }
 a img:hover,
 a img:focus {
@@ -149,7 +157,7 @@ pre code {
 }
 .post-container a:hover,
 .post-container a:focus {
-  color: #22C3AA;
+  color: #22c3aa;
 }
 .post-container h1,
 .post-container h2,
@@ -353,14 +361,14 @@ pre code {
   }
   .navbar-custom.is-fixed .navbar-brand:hover,
   .navbar-custom.is-fixed .navbar-brand:focus {
-    color: #22C3AA;
+    color: #22c3aa;
   }
   .navbar-custom.is-fixed .nav li a {
     color: #404040;
   }
   .navbar-custom.is-fixed .nav li a:hover,
   .navbar-custom.is-fixed .nav li a:focus {
-    color: #22C3AA;
+    color: #22c3aa;
   }
   .navbar-custom.is-visible {
     /* if the user changes the scrolling direction, we show the header */
@@ -486,7 +494,7 @@ pre code {
 .post-preview > a:hover,
 .post-preview > a:focus {
   text-decoration: none;
-  color: #22C3AA;
+  color: #22c3aa;
 }
 .post-preview > a > .post-title {
   font-size: 21px;
@@ -514,7 +522,7 @@ pre code {
 }
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
-  color: #22C3AA;
+  color: #22c3aa;
   text-decoration: underline;
 }
 @media only screen and (min-width: 768px) {
@@ -536,7 +544,7 @@ pre code {
   color: #a3a3a3;
 }
 .post-content-preview:hover {
-  color: #22C3AA;
+  color: #22c3aa;
 }
 @media only screen and (min-width: 768px) {
   .post-content-preview {
@@ -566,6 +574,9 @@ footer .list-inline {
   margin: 0;
   padding: 0;
 }
+footer .list-inline a:hover .fa-stack-1x {
+  font-size: 33px;
+}
 footer .copyright {
   font-size: 14px;
   text-align: center;
@@ -576,7 +587,7 @@ footer .copyright a {
 }
 footer .copyright a:hover,
 footer .copyright a:focus {
-  color: #22C3AA;
+  color: #22c3aa;
 }
 .floating-label-form-group {
   font-size: 14px;
@@ -623,7 +634,7 @@ footer .copyright a:focus {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #22C3AA;
+  color: #22c3aa;
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
@@ -648,8 +659,8 @@ form .row:first-child .floating-label-form-group {
 }
 .btn-default:hover,
 .btn-default:focus {
-  background-color: #22C3AA;
-  border: 1px solid #22C3AA;
+  background-color: #22c3aa;
+  border: 1px solid #22c3aa;
   color: white;
 }
 .pager {
@@ -685,8 +696,8 @@ form .row:first-child .floating-label-form-group {
 .pager li > a:hover,
 .pager li > a:focus {
   color: white;
-  background-color: #22C3AA;
-  border: 1px solid #22C3AA;
+  background-color: #22c3aa;
+  border: 1px solid #22c3aa;
 }
 .pager .disabled > a,
 .pager .disabled > a:hover,
@@ -699,12 +710,12 @@ form .row:first-child .floating-label-form-group {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #22C3AA;
+  background: #22c3aa;
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background: #22C3AA;
+  background: #22c3aa;
 }
 img::selection {
   color: white;
@@ -715,7 +726,7 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #22C3AA;
+  webkit-tap-highlight-color: #22c3aa;
 }
 /* Hux add tags support */
 .tags {
@@ -792,7 +803,7 @@ body {
   margin-top: 0px;
 }
 .listing-seperator {
-  color: #22C3AA;
+  color: #0085a1;
   font-size: 21px !important;
 }
 .listing-seperator::before {
