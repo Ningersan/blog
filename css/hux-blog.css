@@ -918,6 +918,22 @@ body {
 #ds-smilies-tooltip ul.ds-smilies-tabs li a {
   background: white !important;
 }
+.music-panel .music-control {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+}
+.music-panel .music-control a:hover {
+  color: #c62f2f;
+}
+.music-panel #music-content {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 65px;
+}
 .page-fullscreen .intro-header {
   position: fixed;
   left: 0;

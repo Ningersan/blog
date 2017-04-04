@@ -63,3 +63,9 @@ jQuery(document).ready(function($) {
             });
     }
 });
+
+// switch music
+$(".music-control").click(function() {
+    $("#music-content").toggle();
+    $(".fa-music").toggleClass("fa-rotate-180");
+});
