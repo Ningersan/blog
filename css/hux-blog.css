@@ -544,7 +544,7 @@ pre code {
   color: #a3a3a3;
 }
 .post-content-preview:hover {
-  color: #22c3aa;
+  color: #42b983;
 }
 @media only screen and (min-width: 768px) {
   .post-content-preview {
@@ -928,11 +928,21 @@ body {
 .music-panel .music-control a:hover {
   color: #c62f2f;
 }
+.music-panel .music-control a .fa-music {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+}
 .music-panel #music-content {
   display: none;
   position: fixed;
   bottom: 0;
   right: 65px;
+}
+.fa-stack-1x,
+.fa-stack-2x {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .page-fullscreen .intro-header {
   position: fixed;

@@ -502,7 +502,7 @@ pre code{
     font-style: italic;
     color:#a3a3a3;
     &:hover{
-        color: @brand-primary;
+        color: #42b983;
     }
     @media only screen and (min-width: 768px) {
         font-size:14px;
@@ -933,6 +933,10 @@ body {
 			&:hover {
 				color: #c62f2f;
 			}
+			.fa-music {
+				box-shadow: 0 0 10px rgba(0,0,0,.15);
+    			border-radius: 50%;
+			}
 		}
 	}
 	#music-content {
@@ -942,6 +946,15 @@ body {
         right: 65px;
     }
 }
+
+// set icon transition
+.fa-stack-1x,
+.fa-stack-2x {
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
 
 
 // Hux fullscreen mode in 404.html
