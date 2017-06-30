@@ -4,7 +4,7 @@ title:      "js：关于this"
 subtitle:   "多变的this与不变的规则"
 date:       2017-03-30 20:47:00
 author:     "Zi Ning"
-header-img: "img/this.jpeg"
+header-img: "img/js.jpeg"
 tags:
     - JavaScript
     - js this

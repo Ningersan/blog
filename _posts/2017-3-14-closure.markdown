@@ -4,7 +4,7 @@ title:      "js：闭包"
 subtitle:   "那令人迷惑的背后，往往隐藏着揭开谜底的惊喜"
 date:       2017-03-14 22:00:00
 author:     "Zi Ning"
-header-img: "img/closure.jpg"
+header-img: "img/js.jpeg"
 tags:
     - JavaScript
     - js作用域
