@@ -79,7 +79,7 @@ var denseArr = Array.apply(null, Array(100))    // 兼容旧浏览器
 var denseArr = Array.apply(null, {length: 100}) // ES5
 var denseArr = Array.from({length: 100})        // ES6
 var denseArr = Array(100).fill('naive')         // ES6
-var denseArr = [...Array[100]]                  // ES6
+var denseArr = [...Array(100)]                  // ES6
 ```
 
 第一张方法实际上等于
